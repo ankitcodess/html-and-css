@@ -1,0 +1,220 @@
+
+*{
+    margin: 0;
+    
+   
+}
+
+/* when clicked */
+
+a:hover {
+    color: white; /* Change color when hovered */
+ 
+}
+
+a:active {
+    color: #008000; /* Change color when clicked */
+  
+}
+
+
+
+
+
+
+            /* header */
+
+#welcome{
+ 
+    text-align: center;
+    background-color: ;
+    color:white; 
+    
+    background-color: black;
+}
+
+/* navigation */
+nav{
+    height: 60px;
+   padding-top: 10px;
+    background-color: black;  
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    
+  
+    
+
+    
+    
+}
+nav a{
+    text-decoration: none;
+    padding-left:40px;
+    font-weight: 1000;
+    font-size:larger;
+    color:mediumslateblue;
+    font-size: 25px;
+
+}
+
+/* icons */
+
+.icons{
+    display:flex;
+    justify-content: center;
+   background-color: ;
+  height: 66px;
+
+background-color: black;
+}
+#icon1,#icon2,#icon3
+{
+    padding-left:20px;
+    font-size: 50px;
+}
+/* webname */
+.webname{
+font-size: 20px;
+text-align: center;
+
+}
+
+/* homecontainer */
+.maincontent{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+   
+  }
+  .types{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20%;
+  
+  }
+  #horror{
+    background-image: url(horror.png);
+    background-size:contain;
+  }
+  #horror:hover {
+    background-image: url(horror2.webp);
+    background-size:cover;
+  }
+  #romance{
+    background-image: url(romance.jpg);
+    background-size:cover;
+ }
+ #romance:hover {
+    background-image: url(romance2.jpg);
+    background-size:cover;
+  }
+ #comedy{
+    background-image: url(comedy.jpg);
+    background-size:cover;
+    
+ }
+ #comedy:hover {
+    background-image: url(comedy2.jpg);
+    background-size:cover;
+  }
+
+ #action{
+    background-image: url(action.avif);
+    background-size: cover;
+ }
+
+ #action:hover {
+    background-image: url(action2.jpg);
+    background-size:cover;
+  }
+ #adventure{
+    background-image: url(adventure.jpg);
+    background-size: cover;
+ }
+ #adventure:hover {
+    background-image: url(adventure2.webp);
+    background-size:cover;
+  }
+  .typehead{
+    color:white;
+    text-align: center;
+    
+}
+/* blogcontainer */
+
+#blogcontainer{
+    background-color: black;
+    height: 600px;
+    width: 1200px;
+    border-radius: 30px;
+    margin-left: 50px;
+
+    
+    color:white;
+}
+
+.blogp{
+   font-size:large;
+}
+
+
+
+
+
+  /* footer */
+  .footer {
+    background-color:black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.footer-section h3 {
+    border-bottom: 2px solid #e50914;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 8px 0;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    color: #e50914;
+}
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #e50914;
+}
+.footer-bottom {
+    margin-top: 20px;
+}
