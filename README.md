@@ -21,7 +21,8 @@ HTML
 CSS
 
 ----Usage----
-Clone the repository:
+
+Clone the repository:https://github.com/ankitcodess/html-and-css
 
 Open home.html to access the main page.
 
